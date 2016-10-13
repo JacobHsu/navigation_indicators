@@ -1,0 +1,236 @@
+.section {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.section--nav {
+	position: relative;
+	overflow: hidden;
+	-webkit-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+
+.section__title {
+	font-size: 0.65em;
+	font-weight: 700;
+	-webkit-flex: none;
+	flex: none;
+	margin: 3em 0 15em;
+	text-indent: 3px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #d1d1d1;
+}
+
+.section.section--intro {
+	font-size: 1.6em;
+	position: relative;
+	min-height: 100vh;
+	text-align: center;
+	color: #fff;
+	background: #333;
+}
+
+.section--intro p {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+/* Mockup Slider */
+.mockup-slider {
+	position: relative;
+	width: calc(100% - 12em);
+	margin: 0 0 0 2em;
+	max-width: 600px;
+}
+
+.mockup-slider::before,
+.mockup-slider::after {
+	content: '';
+	width: 100%;
+	background: rgba(0,0,0,0.05);
+	height: 100px;
+	position: absolute;
+	top: 0;
+}
+
+.mockup-slider::after {
+	top: auto;
+	bottom: 0;
+}
+
+.mockup-slider img {
+	position: relative;
+	display: block;
+	max-width: 100%;
+	margin: 150px 0;
+	box-shadow: 0 10px 20px -4px rgba(0,0,0,0.6);
+}
+
+.mockup-slider__title {
+	position: absolute;
+	font-size: 3em;
+	bottom: 30%;
+	left: -0.5em;
+	font-weight: normal;
+	margin: 0;
+}
+
+.mockup-slider__subtitle {
+	position: absolute;
+	top: 70%;
+	left: -1em;
+	background: #1b3050;
+	margin: 0;
+	color: #fff;
+	font-size: 1.05em;
+	padding: 0.25em 0.5em;
+	z-index: 100;
+}
+/* Individual section colors */
+
+/* Xusni */
+.section#Xusni {
+	 background: #3f51b5;
+	 color: #212956;
+}
+
+/* Magool */
+.section#Magool {
+	 background: #b5bf4b;
+	 color: #fff;
+}
+
+.section#Magool .mockup-slider__subtitle {
+	background: #f44336;
+}
+
+.section#Magool .mockup-slider__subtitle a {
+	color: #ddd;
+	font-weight: bold;
+}
+
+/* Ubax */
+.section#Ubax {
+	 background: #e9eae5;
+	 color: #31312f;
+}
+
+/* Zahi */
+.section#Zahi {
+	 background: #f44336;
+	 color: #fff;
+}
+
+/* Timiro */
+.section#Timiro {
+	 background: #eae096;
+	 color: #ff5722;
+}
+
+/* Shamso */
+.section#Shamso {
+	 background: #93b1c5;
+	 color: #ff98bb;
+}
+
+/* Maxamed */
+.section#Maxamed {
+	 background: #78b395;
+	 color: #fff;
+}
+
+/* Beca */
+.section#Beca {
+	 background: #a7a7a7;
+	 color: #ffeb3b;
+	 min-height: 510px;
+}
+
+.section#Beca .mockup-slider {
+	margin: 0 0 0 -9em;
+	min-height: 510px;
+}
+
+/* Etefu */
+.section#Etefu {
+	 background: #62ea80;
+	 color: #fff;
+}
+
+/* Meklit */
+.section#Meklit {
+	background: #27272b;
+	color: #ff4d3b;
+	min-height: 510px;
+}
+
+.section#Meklit .mockup-slider {
+	margin: 0 0 0 -9em;
+	min-height: 510px;
+}
+
+/* Mariame */
+
+.section#Mariame {
+	background: #a9a9d4;
+	color: #5050b9;
+}
+
+/* Desta */
+.section#Desta {
+	background: #1e1b2c;
+	color: #f39468;
+}
+
+.section#Desta .mockup-slider__title:first-letter {
+	color: #fff;
+}
+
+/* Hagos */
+.section#Hagos {
+	background: #92d9c7;
+	color: #fff;
+}
+
+/* Berta */
+.section#Berta {
+	background: #ff6666;
+	color: #ffe7db;
+	min-height: 510px;
+}
+
+.section#Berta .mockup-slider {
+	min-height: 510px;
+}
+
+/* Aman */
+.section#Aman {
+	background: #f7f5ed;
+	color: #d6856d;
+}
+
+/* Kafa */
+.section#Kafa,.section#wand {
+	background: #d2f1ca;
+	color: #e54f4f;
+}
+
+/* Kafa */
+.section#Totit {
+	background: #3992fd;
+	color: #fff;
+}
+
+/* Ayana */
+.section#Ayana {
+	background: #738aa0;
+	color: #fffefd;
+}
